@@ -48,7 +48,11 @@ For every task, follow these phases. Do not skip.
   - **Sources** — link to the deep artifact and the top 3–5 sources.
 - Set `confidence: low|medium|high` in the frontmatter honestly. If `low`, say in the body what would raise it.
 
-### 6. Commit
+### 6. Log to the daily brief
+- Append to `research/briefs/daily/<YYYY-MM-DD>.md` (create the file using `docs/daily-brief-format.md` if it doesn't exist for today).
+- In plain English: what you did, what you found, what's in the repo now, what you'd suggest next. Link to your artifact and brief.
+
+### 7. Commit
 - Stage and commit your work in a single commit: `research: <category>/<slug> — <one-line takeaway>`.
 - Do not push. The CEO controls pushes.
 
@@ -60,6 +64,8 @@ For every task, follow these phases. Do not skip.
 4. **No SaaS recommendations as conclusions.** Findings are about the market; recommendations are decisions for the CEO to make, not for you to make for them.
 5. **Brief ≤ 1 page.** This is non-negotiable. Briefs that exceed it get rejected.
 6. **Update the brain.** New competitor mentioned anywhere in your research → entity file gets created or updated. The brain is the product; treat it that way.
+7. **No timelines.** Do not add week numbers, day estimates, or calendar deadlines to artifacts. Use phase names or sequential ordering. The CEO sets pace.
+8. **Daily brief is mandatory.** Every task ends with an append to `research/briefs/daily/<YYYY-MM-DD>.md`. No exceptions.
 
 ## What good looks like
 

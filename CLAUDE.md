@@ -35,6 +35,8 @@ docs/             # plans, conventions, templates
 3. **One entity per file.** A company, person, fund, or deal gets its own file under `brain/entities/<type>/<slug>.md`. Reference others with `[[slug]]`.
 4. **Confidence tags.** Use `confidence: low|medium|high` in frontmatter for any claim that isn't directly quoted. Briefs surface confidence.
 5. **Briefs are short.** Hard cap: 1 page. Structure: TL;DR (3 bullets) → key findings (5 bullets max) → so what (1 paragraph) → open questions (3 bullets) → sources (linked).
+6. **No timelines unless the CEO asks.** Plans, roadmaps, and research artifacts must not include week numbers, sprint labels, or calendar deadlines. Use phase names or sequential ordering. The CEO sets pace when ready.
+7. **Daily CEO brief.** Every change to this repo — by Claude, sub-agents, skills, or humans — gets appended to `research/briefs/daily/<YYYY-MM-DD>.md` in plain English. Format: [`docs/daily-brief-format.md`](docs/daily-brief-format.md). This is the CEO's status feed; nothing ships without an entry there.
 
 ## How research flows
 
