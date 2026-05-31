@@ -1,0 +1,17 @@
+# Schema for brain/entities/companies/*.md frontmatter
+id: string             # slug, matches filename without .md
+type: company
+name: string
+category: string       # e.g. "deal sourcing", "diligence", "portfolio ops"
+url: string | null
+founded: integer | null
+hq: string | null
+stage: string | null   # seed | series-a | growth | public
+funding_total_usd: integer | null
+last_round: { date: string, amount_usd: integer, lead: string } | null
+employees_estimate: integer | null
+relevance: string      # "direct competitor" | "adjacent" | "comparable" | "potential customer"
+sources: [string]      # paths or URLs
+confidence: low | medium | high
+created: date
+updated: date

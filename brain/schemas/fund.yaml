@@ -1,0 +1,15 @@
+id: string
+type: fund
+name: string
+aum_usd: integer | null
+stage_focus: [string]     # e.g. ["seed", "series-a"]
+sector_focus: [string]
+hq: string | null
+portfolio_count: integer | null
+notable_partners: [string]   # slugs of people
+ai_tooling_signals: string | null   # what we know about their internal AI use
+relevance: string         # "target customer" | "comparable" | "competitor (as firm)"
+sources: [string]
+confidence: low | medium | high
+created: date
+updated: date

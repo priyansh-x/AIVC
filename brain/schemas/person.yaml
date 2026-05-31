@@ -1,0 +1,12 @@
+id: string
+type: person
+name: string
+role: string
+affiliation: string | null   # slug of company/fund
+linkedin: string | null
+twitter: string | null
+notes: string | null
+sources: [string]
+confidence: low | medium | high
+created: date
+updated: date
