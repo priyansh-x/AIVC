@@ -2,6 +2,8 @@
 
 This file teaches any Claude session (and any new human collaborator) how this repo is organized and how to operate inside it. Read this before doing work.
 
+**Standing context lives in [`docs/aivc-context.md`](docs/aivc-context.md)** — wedge, geographic focus, assets, constraints. Read that immediately after this file. Sub-agents must read both before any research task.
+
 ## Operating model
 
 - **Priyansh acts as CEO.** Strategic direction, customer discovery, hiring, final calls on thesis and product.
